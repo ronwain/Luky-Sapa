@@ -24,30 +24,17 @@ header {
     text-align: center;
     color: beige;
     background-color: #cc0000;
+    display: flex;
    justify-content: center;
+   justify-content: space-between;
     position: sticky;
     padding: 25px 0 25px 0;
 }
-ul {
-    list-style-type: none;
-    margin-top:   30px ;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-}
 
- li {
-    
-    text-align: center;
-    color: beige;
-    background-color: #cc0000;
-    
-}
-.menu li {
+.menu {
     display: inline-block;
 }
-li:hover {
+a:hover {
     background-color: #da6a6a;
     align-self: auto;
 }
