@@ -27,9 +27,7 @@ header {
     background-color: #cc0000;
    justify-content: center;
     position: sticky;
-    margin-bottom: 50px;
-    background-position: center;
-    background-size: cover;
+    padding: 25px 0 25px 0;
   
     
 }
@@ -52,6 +50,7 @@ ul {
 body{
     margin-top: 600px;
     box-sizing: border-box;
+    display: flex;
     align-items: stretch;
     padding: 10px;
     padding-top: 50px;
@@ -79,7 +78,7 @@ body{
 
 .restaurace {
     background-color: #330000;
-    justify-content: center;
+    justify-content: stretch;
     align-items: stretch;
    
   
@@ -96,4 +95,15 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+footer {
+    background-color: #cc0000;
+ ;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
