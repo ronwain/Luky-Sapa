@@ -21,30 +21,35 @@ header {
 
 
 .menu {
-  
     text-align: center;
     color: beige;
     background-color: #cc0000;
    justify-content: center;
     position: sticky;
     padding: 25px 0 25px 0;
-  
-    
 }
 ul {
-    list-style: none;
+    list-style-type: none;
     margin-top:   30px ;
     margin-bottom: 30px;
-    
-  
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
  li {
-    padding: 0;
+    
     text-align: center;
     color: beige;
     background-color: #cc0000;
-    position: sticky;
+    
+}
+.menu li {
+    display: inline-block;
+}
+li:hover {
+    background-color: #da6a6a;
+    align-self: auto;
 }
 
 body{
@@ -106,4 +111,13 @@ footer {
     padding-top: 20px;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+a:link {
+    color: rgb(247, 252, 253);
+    text-decoration: none;
+    font-size: large;
+}
+a:visited {
+    color: black;
 }
