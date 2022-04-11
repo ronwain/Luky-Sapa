@@ -5,7 +5,8 @@
     justify-items: center;
     font-family: 'Merriweather', serif;
     font-size: 15px;
-  
+    margin: 0mm;
+    padding: 0mm;
  
     
 }
@@ -60,11 +61,12 @@ body{
     box-sizing: border-box;
     display: flex;
     align-items: stretch;
-    padding: 10px;
+    
     padding-top: 50px;
     font-size: 20px;
     line-height: 1.5;
     background-color: #330000;
+    
   
 }
 
@@ -79,8 +81,8 @@ body{
 }
 
 .fotka {
-    width: 200px;
-    height: 200px;
+    max-width: 50%;
+    max-height: 50%;
     display: block;
     align-items: center;
     justify-content: center;
